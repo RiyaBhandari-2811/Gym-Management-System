@@ -10,7 +10,7 @@ public class ConnectionClass {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // 2. Making Connection
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/GymManagement", "root", "Riya1234$");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/GymManagement", "<User>", "<Password>");
             System.out.println("Connection Successfull");
             stm = conn.createStatement();
 
